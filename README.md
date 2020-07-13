@@ -1,7 +1,7 @@
 # Winner of the Best Healthcare Hack award powered by Siemens Healthineers in HopHacks Fall 2019 
 
 <p align="center"><br>
-<a href="https://www.anandsure.com">
+<a href="https://www.anandsure.com" target="_blank">
 <img src="https://github.com/Anandsure/iWheel-inator/blob/master/win_flex.jpg" height="390px" alt="Anand Suresh"/>
 </a>
 </p>
