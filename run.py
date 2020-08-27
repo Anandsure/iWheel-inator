@@ -52,19 +52,6 @@ def get_names():
             command= 'okay iWheel-inator'
         else:
             command= command
-    #print('You said: ' + command + '\n')
-    # assistant = ibm_watson.AssistantV1(
-    # version='2019-02-28',
-    # iam_apikey='u1N9ThXmpZUk_-1_F1AaAw-11BbBXFtCbonmmerHbnFI',
-    # url='https://gateway-wdc.watsonplatform.net/assistant/api'
-    # )
-
-    # response = assistant.message(
-    #     workspace_id='7cb1c0fc-6e91-4b63-9e93-8a30028bd58e',
-    #     input={
-    #         'text': command #use the <text> we get with flask
-    #     }
-    # ).get_result()
         authenticator = IAMAuthenticator('u1N9ThXmpZUk_-1_F1AaAw-11BbBXFtCbonmmerHbnFI')
     assistant = AssistantV1(
         version='2019-02-28',
